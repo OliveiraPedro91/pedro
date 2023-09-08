@@ -186,6 +186,17 @@ textarea {
     background-color: #ccc;
     color: #000;
 }
+#link-topo{
+    text-decoration: none;
+    color: black;
+    background-color: #eeeeee2c;
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+    box-shadow: 3px 3px 10px #333;
+    border-radius: 7px;
+}
 
 /* --------------------------------------------------FOOTER----------------------------------------------------- */
 
