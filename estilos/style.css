@@ -54,10 +54,6 @@ main{
 .home{
     min-height: calc(100vh - 100px);
     background-color: rgba(0, 0, 0, 0.550);
-    background-image: url(/imagens/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     background-blend-mode: color;
     background-attachment: fixed;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
