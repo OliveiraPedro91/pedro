@@ -215,7 +215,8 @@ footer img{
         flex-direction: column;
     }
     nav > div#logo {
-        padding: 0px;
+        align-items: center;
+        justify-content: center;
     }
     nav > div#botoes{
         width: 90%;
