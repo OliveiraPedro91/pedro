@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style-padrao.css">
+    <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon">
+    <title>Padrão</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="imagens/logo.png" alt="Logo Pedro Dev"></a>       
+    </header>
+    <nav>
+            <div id="botoes">
+                <a href="#home"  class="menu">Home</a>
+                <a href="#conteudo"  class="menu">Projetos</a>
+                <a href="#contato"  class="menu">Contato</a>
+            </div>
+    </nav>
+    <main>
+        <section class="home" id="home">
+            <div class="home-apresentacao">
+                <p>Olá, sou o</p>
+                <h1>Pedro Oliveira da Silva</h1>
+                <p>Sou estudante de Análises e Desenvolvimento de Sistemas.</p>
+                <p>Elaborei este portfólio com o propósito de exibir uma amostra dos meus trabalhos pessoais, bem como alguns dos cursos que concluí.</p>
+            </div>
+        </section>
+        <section class="conteudo" id="conteudo">
+            <h1>Principais projetos</h1>
+            <p>Aqui estão alguns dos meus principais trabalhos como desenvolvedor web:</p>
+        <div class="meus-projetos">
+            <div id="projeto">
+            <a href="https://oliveirapedro91.github.io/projeto-android-2/#" target="_blank"><img src="imagens/projeto-android.png" alt="Projeto android feito pelo curso em vídeo"></a>
+            </div>
+            <div id="projeto">
+            <a href="https://oliveirapedro91.github.io/projeto-cordel/" target="_blank"><img src="imagens/projeto-cordel.png" alt="Projeto cordel feito pelo Curso em vídeo"></a>
+            </div>
+            <div id="projeto">
+            <a href="https://oliveirapedro91.github.io/Projeto-Social/"  target="_blank"><img src="imagens/projeto-social.png" alt="Projeto de telas de redes sociais feito pelo Curso em vídeo"></a>
+            </div>
+            <div id="projeto">  
+            <a href="https://oliveirapedro91.github.io/abelhas/"  target="_blank"><img src="imagens/projeto-abelhas.png" alt="Projeto de minha autoria feito com ensinamentos do Curso em vídeo usando conteúdo do livro: Manual de boas práticas e manejo de abelhas sem ferrão."></a></div>
+            </div>
+            <div class="vazia"></div>
+        </div>
+        </section>
+        <section class="contato" id="contato">
+            <section class="js-contato" id="js-contato">
+                <h1>Entre em cotato por nossas Redes Sociais:</h1>
+                <div class="redes-sociais">
+                    <!-- Likedin -->
+                    <a href="https://www.linkedin.com/in/pedro-oliveira-da-silva-46207953/" target="_blank"><img src="imagens/linkedin.png" alt="Linkedin"></a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/OliveiraPedro91" target="_blank"><img src="imagens/github.png" alt="github"></a>
+                    <!-- Twiiter -->
+                    <a href="https://twitter.com/posbds"><img src="imagens/twitter.png" alt="Twitter"></a>
+                 </div>
+                 <br>
+                 <br>
+                 <div class="container">
+                    <h2>Se você preferir, nos envie um E-mail!</h2>
+                    <form action="https://formsubmit.co/pedrooliveira131@gmail.com" method="POST">
+                        
+                        <div class="form-group"><input type="hidden" name="_next" value="https://oliveirapedro91.github.io/pedro-portifolio/"></div>
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+            
+                        <div class="form-group">
+                            <label for="assunto">Assunto:</label>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </div>
+            
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+            
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                        </div>
+            
+                        <div class="button-container">
+                            <button type="reset">Limpar</button>
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>Site desenvolvido por </p><img src="imagens/logo.png" alt="Logo PedroDev">
+    </footer>
+</body>
+</html>
