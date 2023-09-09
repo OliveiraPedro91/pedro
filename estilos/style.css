@@ -226,7 +226,7 @@ footer img{
 /* --------------------------------------------------------------------------------------------------------------- */
                                                  /* VERSÃO MOBILE */
 /* --------------------------------------------------------------------------------------------------------------- */
-@media (max-width: 586px) {
+@media (min-width: 450px) and (max-width: 586px) {
     header{
         height: 150px;
     }
@@ -275,11 +275,21 @@ footer img{
         margin: auto;
     }
     h1.logo{
-        font-size: 1.3rem;
+        font-size: 1rem;
         color: black;
         text-decoration: none;
     }
     a.logo{
         text-decoration: none;
     }
+}
+@media (max-width: 449px){
+    h1.logo{
+        font-size: 0.8rem;
+        color: black;
+        text-decoration: none;
+    }
+    a.logo{
+        text-decoration: none;
+    } 
 }
