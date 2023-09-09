@@ -283,13 +283,3 @@ footer img{
         text-decoration: none;
     }
 }
-@media (max-width: 449px){
-    h1.logo{
-        font-size: 0.8rem;
-        color: black;
-        text-decoration: none;
-    }
-    a.logo{
-        text-decoration: none;
-    } 
-}
