@@ -206,6 +206,12 @@ textarea {
     box-shadow: 3px 3px 10px #333;
     border-radius: 7px;
 }
+.footer-pc{
+    display: block;
+}
+.footer-mobile{
+    display: none;
+}
 
 /* --------------------------------------------------FOOTER----------------------------------------------------- */
 
@@ -223,12 +229,23 @@ footer{
 footer img{
     padding-left: 10px;
 }
+footer .footer-pc{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
 /* --------------------------------------------------------------------------------------------------------------- */
                                                  /* VERSÃO MOBILE */
 /* --------------------------------------------------------------------------------------------------------------- */
-@media (min-width: 450px) and (max-width: 586px) {
+@media (max-width: 360px) {
     header{
         height: 150px;
+    }
+    a.logo{
+        max-width: 120px;
+    }
+    h1#logo{
+        max-width: 120px;
     }
     nav{
         height: 150px;
@@ -281,5 +298,11 @@ footer img{
     }
     a.logo{
         text-decoration: none;
+    }
+    footer{
+        width: 95%;
+    }
+    footer .footer{
+
     }
 }
