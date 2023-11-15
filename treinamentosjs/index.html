@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS para o exercício de troca de fotos-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Script para troca de fotos-->
+    <script src="scripts/ex-troca-foto.js"></script>
+    <title>Treinamentos em JavaScript</title>
+</head>
+<body>
+
+    <header>
+        <h1>Segue aqui meus exercícios em JavaScript</h1>
+        <h4>Exercício de troca de fotos com botão.</h4>
+    </header>
+
+    <div class="exercicio1">
+    <img src="img/foto01.jpg" alt="" id="imagens">
+    <button onclick="trocarFoto()">Próxima foto</button>
+    </div>
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .foto{
+            max-width: 350px;
+            max-height: 350px;
+            overflow: hidden;
+            object-fit: contain;
+        }
+        #minhaImagem {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* Ajusta a imagem para caber completamente na div */
+        }
+    </style>
+    <title>teste do html e script</title>
+</head>
+<body>
+    <h1>Olá mundo</h1>
+    <p>Veja a foto abaixo</p>
+    <button onclick="trocarFoto()">Trocar Foto</button>
+    <div class="foto">
+    <img id="minhaImagem" src="img/foto01.jpg" alt="">
+    </div>
+
+    <script>
+        // Lista de fotos
+        const fotos = [
+            "img/foto01.jpg",
+            "imagens/load.jpg"
+        ];
+
+        // Índice da foto atual
+        let indiceAtual = 0;
+
+        function trocarFoto() {
+            const minhaImagem = document.getElementById("minhaImagem");
+
+            // Alterna para a próxima foto
+            indiceAtual = (indiceAtual + 1) % fotos.length;
+
+            // Define o atributo src com a próxima foto
+            minhaImagem.setAttribute("src", fotos[indiceAtual]);
+        }
+
+    
+    </script>
+</body>
+</html>
+ -->
