@@ -20,5 +20,4 @@ function trocarFoto() {
     fotoAtual = (fotoAtual + 1) % fotos.length;
 
     imagens.setAttribute("src", fotos[fotoAtual]);
-
 }
