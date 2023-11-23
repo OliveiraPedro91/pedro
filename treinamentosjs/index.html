@@ -9,6 +9,7 @@
 
     <!--Script para troca de fotos-->
     <script src="scripts/ex-troca-foto.js" defer></script>
+    <script src="scripts/ex-trocar-texto.js"defer></script>
     <title>Treinamentos em JavaScript</title>
 </head>
 <body>
@@ -18,18 +19,29 @@
         <h3>Exercício de troca de fotos com botão.</h3>
     </header>
 
-    <div class="exercicio1">
+    <div class="exercicio1" id="exercicio1">
     <img src="img/foto01.jpg" alt="" id="imagens">
     <button onclick="trocarFoto()">Próxima foto</button>
     </div>
     <hr>
-    <div class="exercicio2">
+    <div class="exercicio2" id="exercicio2">
         <h3>Exercício de troca de texto</h3>
+        <div id="texto">
+            <p>
+                Numa tarde tranquila, as folhas dançavam ao ritmo suave do vento, criando uma sinfonia natural que embalava a pequena cidade. As ruas de paralelepípedos testemunhavam o vai e vem dos moradores, cada um com sua história entrelaçada com o tecido da comunidade. Nas esquinas, conversas animadas se desenrolavam, misturando risos e murmúrios.
+            </p>
+            <p>    
+                Enquanto o sol se despedia no horizonte, tingindo o céu de tons dourados, os pássaros iniciavam sua própria serenata noturna. O aroma de jasmins pairava no ar, enchendo os sentidos de uma doce nostalgia. Nas vitrines das lojas, objetos curiosos capturavam olhares curiosos, cada um contando uma história única.
+            </p>
+            <p>
+                Num café acolhedor, os clientes saboreavam o calor de suas bebidas, perdendo-se em pensamentos ou entregando-se a animadas conversas. Ali, no coração da cidade, a vida pulsava em harmonia, uma dança contínua de momentos efêmeros e eternos.
+            </p>
+            </p>
+                E assim, entre o crepúsculo e a noite, a cidade seguia seu curso, tecendo laços invisíveis entre seus habitantes, como um bordado intricado que dava forma à tapeçaria da vida cotidiana.
+            </p>
 
-        
-
-
-
+            <button onclick="trocarTexto()">Trocar texto</button>
+        </div>
     </div>
 
 </body>
